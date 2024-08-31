@@ -10,3 +10,7 @@ const timingFn = setTimeout(() => {
 }, 8000);
 
 h1.addEventListener("click", timingFn);
+
+function featA() {
+  console.log("this is random feature");
+}
